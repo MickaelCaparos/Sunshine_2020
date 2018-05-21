@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sunshine 2020</title>
+</head>
+<body style="background: black;">
+    <video id="sunshine_video" width="100%" autoplay src="video/sunshine-2020.mp4"></video>
+    <script>
+        document.getElementById("sunshine_video").addEventListener("ended",function() {
+        window.location.href="aide.html"
+    });
+    </script>
+</body>
+</html>
